@@ -1,0 +1,25 @@
+@import "./blocks/media.css";
+@import "./blocks/promo.css";
+@import "./blocks/header.css";
+@import "./blocks/button.css";
+@import "./blocks/advantages.css";
+@import "./blocks/consultation.css";
+@import "./blocks/forms.css";
+@import "./blocks/carousel.css";
+@import "./blocks/catalog.css";
+@import "./blocks/reviews.css";
+@import "./blocks/footer.css";
+@import "./blocks/modal.css";
+@import "./blocks/pageup.css";
+@import "./blocks/animations.css";
+
+* {
+    font-family: "Museo Sans Cyrl", sans-serif;
+}
+.title {
+    font-weight: 700;
+    font-size: clamp(1.5rem, 1.364rem + 0.68vw, 1.875rem);
+    text-align: center;
+    color: #0d0d0d;
+    text-transform: uppercase;
+}
