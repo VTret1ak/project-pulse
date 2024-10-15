@@ -1,0 +1,27 @@
+.reviews {
+    padding-bottom: 50px;
+}
+.review__card {
+    display: flex;
+    margin-top: 60px;
+}
+.review__card_img {
+    margin-right: 60px;
+}
+.review__card_title {
+    font-weight: 700;
+    font-size: clamp(0.938rem, 0.869rem + 0.34vw, 1.125rem);
+    color: #0d0d0d;
+}
+.review__card_subtitle {
+    font-weight: 500;
+    font-size: clamp(0.688rem, 0.619rem + 0.34vw, 0.875rem);
+    color: #646464;
+}
+.review__card_descr {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: clamp(0.813rem, 0.744rem + 0.34vw, 1rem);
+    line-height: 130%;
+    color: #0d0d0d;
+}

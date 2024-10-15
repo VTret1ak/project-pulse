@@ -1,0 +1,19 @@
+.consultation {
+    padding: 100px 0 108px 0;
+    background: url(../../img/second-bg.png) center center / cover no-repeat;
+}
+.consultation__header {
+    font-weight: 700;
+    font-size: clamp(0.813rem, 0.29rem + 2.61vw, 2.25rem);
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.consultation__subheader {
+    font-weight: 500;
+    font-size: clamp(0.75rem, 0.568rem + 0.91vw, 1.25rem);
+    color: #fff;
+}
+.consultation label.error {
+    color: white;
+}

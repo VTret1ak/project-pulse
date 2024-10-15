@@ -1,0 +1,55 @@
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 38px 40px 40px 40px;
+    width: 380px;
+    min-height: 400px;
+    background-color: #f2f2f2;
+}
+.modal__close {
+    position: absolute;
+    top: 0px;
+    right: -35px;
+    font-size: 33px;
+    line-height: 21px;
+    color: #c70101;
+    cursor: pointer;
+}
+.modal__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #0d0d0d;
+}
+.modal__descr {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #0d0d0d;
+}
+#consultation,
+#order,
+#thanks {
+    display: none;
+}
+.modal_mini {
+    min-height: 140px;
+}
+input.error {
+    border: 1px solid red;
+}
+label.error {
+    border: none;
+    margin-bottom: 5px;
+    margin-top: -15px;
+}
